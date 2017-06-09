@@ -10,3 +10,4 @@ class ApiController < ApplicationController
    
 end
     
+#curl -u BobUsername:password https://ruby-pcliffordsf.c9users.io/api/users/
