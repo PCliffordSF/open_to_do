@@ -15,3 +15,5 @@ end
 #curl -u BobUsername:password -d "user[username]=Sterling" -d "user[password]=Archer" https://ruby-pcliffordsf.c9users.io/api/users/
 
 # curl -u BillyBobUsername:password -d "list[name]=Things to do today" -d "list[permissions]=private" https://ruby-pcliffordsf.c9users.io/api/users/1/lists
+
+# curl -u BillyBobUsername:password -d "item[description]=Dance if you want to" https://ruby-pcliffordsf.c9users.io/api/lists/1/items
