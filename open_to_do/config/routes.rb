@@ -6,12 +6,14 @@ Rails.application.routes.draw do
     resources :users do
        resources :lists
      end
+     
 
-     resources :lists, only: [] do
+     resources :lists, only: [:update] do
        resources :items, only: [:create]
      end
+    
 
-     resources :items, only: [:destroy]
+     resources :items, only: [:destroy, :update]
      
    end
   # The priority is based upon order of creation: first created -> highest priority.

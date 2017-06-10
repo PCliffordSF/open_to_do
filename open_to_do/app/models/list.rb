@@ -3,4 +3,6 @@ class List < ActiveRecord::Base
   has_many :items, dependent: :destroy
   
   validates :user, presence: true
+  
 end
+
