@@ -17,3 +17,7 @@ end
 # curl -u BillyBobUsername:password -d "list[name]=Things to do today" -d "list[permissions]=private" https://ruby-pcliffordsf.c9users.io/api/users/1/lists
 
 # curl -u BillyBobUsername:password -d "item[description]=Dance if you want to" https://ruby-pcliffordsf.c9users.io/api/lists/1/items
+
+# curl -u BillyBobUsername:password -X DELETE https://ruby-pcliffordsf.c9users.io/api/users/1/
+
+# curl -u BillyBobUsername:password -X DELETE https://ruby-pcliffordsf.c9users.io/api/users/1/lists/1
